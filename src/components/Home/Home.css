@@ -1,0 +1,54 @@
+.dark-shadow {
+    border-radius: 44% 56% 53% 47% / 32% 27% 73% 68%;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 2px 4px 0px, rgba(0, 0, 0, 0.5) 0px 2px 16px 0px;
+}
+
+.btn-hover-light::after {
+    content: "";
+    top: 100%;
+    left: 0;
+    position: absolute;
+    background: orange;
+    width: 100%;
+    height: 100%;
+    border-radius: 50% 50% 0px 0px;
+    transition: top 0.5s;
+}
+.btn-hover-light:hover::after{
+    top: 0;
+    border-radius: 0px;
+}
+.btn-hover-light:hover span{
+    color:white;
+}
+
+.btn-hover-dark::after {
+    content: "";
+    top: 100%;
+    left: 0;
+    position: absolute;
+    background: orange;
+    width: 100%;
+    height: 100%;
+    border-radius: 50% 50% 0px 0px;
+    transition: top 0.5s;
+}
+.btn-hover-dark:hover::after{
+    top: 0;
+    border-radius: 0px;
+}
+.btn-hover-dark:hover span{
+    color:black;
+}
+
+.heroImg{
+    padding: 5px;
+    border: 5px solid orange;
+    border-left: none;
+    border-right: none;
+}
+
+.typed-cursor {
+    color: orange; 
+}
+

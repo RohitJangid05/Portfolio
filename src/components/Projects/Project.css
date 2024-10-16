@@ -1,0 +1,7 @@
+.project-card{
+    transition: all 0.3s;
+}
+.project-hover{
+    transition: all 0.3s;
+    background: #000000ba;
+}

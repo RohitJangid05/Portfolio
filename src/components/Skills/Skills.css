@@ -1,0 +1,5 @@
+.aboutSkill hr{
+    background-image: linear-gradient(to right, #ff7e5f, #caab94);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
