@@ -23,7 +23,7 @@ const Contact = () => {
       setIsSubmitting(true); // Disable button during submission
 
       const formData = new FormData(event.target);
-      formData.append("access_key", acessKey);
+      formData.append("access_key", accessKey);
 
       const object = Object.fromEntries(formData);
       const json = JSON.stringify(object);
