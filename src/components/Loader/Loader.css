@@ -1,0 +1,34 @@
+.loader {
+    width: fit-content;
+    font-size: 15vh; 
+    font-family: system-ui, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #0000;
+    -webkit-text-stroke: 1px #000;
+    background: conic-gradient(#000 0 0) 0/0% 100% no-repeat text;
+    animation: l1 2s linear infinite;
+  }
+  
+  .loader:before {
+    content: "ROHIT JANGID";
+  }
+  
+  @keyframes l1 {
+    to {
+      background-size: 120% 100%;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .loader {
+      font-size: 10vh; 
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .loader {
+      font-size: 6vh;
+    }
+  }
+  

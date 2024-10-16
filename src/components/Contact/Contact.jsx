@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import './Contact.css';
-import { acessKey } from '../../../accesskey';
+import { accessKey } from '../../../accesskey';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 const Contact = () => {
-  const [isSubmitting, setIsSubmitting] = useState(false); // Track form submission state
+  const [isSubmitting, setIsSubmitting] = useState(false); 
 
   const notifySuccess = () => toast.success("Form submitted successfully!");
   const notifyError = () => toast.warn("Please fill out all required fields!");
@@ -20,7 +20,7 @@ const Contact = () => {
     if (name.value === "" || email.value === "" || lname.value === "" || message.value === "") {
       notifyError();
     } else {
-      setIsSubmitting(true); // Disable button during submission
+      setIsSubmitting(true); 
 
       const formData = new FormData(event.target);
       formData.append("access_key", accessKey);
@@ -45,7 +45,7 @@ const Contact = () => {
       if (res.success) {
         notifySuccess();
       }
-      setIsSubmitting(false); // Re-enable button after submission
+      setIsSubmitting(false); 
     }
   };
 
