@@ -7,14 +7,14 @@
     color: #0000;
     -webkit-text-stroke: 1px #000;
     background: conic-gradient(#000 0 0) 0/0% 100% no-repeat text;
-    animation: l1 2s linear infinite;
+    animation: loader 2.2ys linear infinite;
   }
   
   .loader:before {
     content: "ROHIT JANGID";
   }
   
-  @keyframes l1 {
+  @keyframes loader {
     to {
       background-size: 120% 100%;
     }
