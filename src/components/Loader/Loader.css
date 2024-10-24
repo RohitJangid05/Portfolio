@@ -7,7 +7,7 @@
     color: #0000;
     -webkit-text-stroke: 1px #000;
     background: conic-gradient(#000 0 0) 0/0% 100% no-repeat text;
-    animation: loader 2.2ys linear infinite;
+    animation: loader 2.2s linear infinite;
   }
   
   .loader:before {
