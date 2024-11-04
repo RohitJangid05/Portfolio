@@ -15,7 +15,7 @@ const ProjectDetails = () => {
 
       <div className='flex flex-col items-center gap-3 w-full  md:w-1/2'>
         <h1 className="text-3xl font-bold text-center">{project.title}</h1>
-        <img src={project.image} alt={project.title} className="w-full md:w-96 border-4 rounded-xl" />
+        <img src={project.image} alt={project.title} className="w-full h-96 object-cover md:w-96 border-4 rounded-xl" />
         <a href={project.url} className="border-2 px-5 py-2 w-24 text-center rounded-full hover:bg-orange-400 hover:text-white transition duration-300">
           Go Live
         </a>

@@ -5,11 +5,13 @@ import resturantApp from './resturantApp.jpg'
 import weatherApp from './weatherApp.png'
 import musicApp from './musicApp.png'
 import landingApp from './landingApp.jpg'
+import gradientApp from './gradientApp.png'
 
 import resturantVideo from './resturantVideo.mp4'
 import weatherVideo from './weatherVideo.mp4'
 import musicVideo from './musicVideo.mp4'
 import landingVideo from './landingVideo.mp4'
+import gradientVideo from './gradientVideo.mp4'
 
 export const heroImg = hero;
 export const rohitImg = rohit;
@@ -67,6 +69,19 @@ export const data = [
       "Dynamic Images: The interface updates the album artwork according to the currently playing track, enhancing the user experience.",
       "User-Friendly Interface: An intuitive layout ensures easy access to all controls, making music playback enjoyable."
     ]
-  },
-  
+  },{
+    id: 5,
+    title: "Gradient Generator",
+    image: gradientApp, 
+    video: gradientVideo,
+    url: "https://rohitjangid05.github.io/ColorGenerator/", 
+    description: "The Gradient Generator is a user-friendly web application that enables users to create and customize beautiful gradients effortlessly. Users can choose from various color options and see real-time previews of their designs.",
+    ul: [
+        "Color Customization: Select and mix colors to create unique gradient combinations.",
+        "Real-Time Preview: Instantly see how your chosen colors blend together in a gradient.",
+        "Download Feature: Save your gradients as images for use in other projects.",
+        "Responsive Design: Works seamlessly on both mobile and desktop devices for on-the-go creativity.",
+        "User-Friendly Interface: Simple navigation allows users of all skill levels to create stunning gradients."
+    ]
+} 
 ];
