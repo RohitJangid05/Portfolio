@@ -6,12 +6,14 @@ import weatherApp from './weatherApp.png'
 import musicApp from './musicApp.png'
 import landingApp from './landingApp.jpg'
 import gradientApp from './gradientApp.png'
+import filmFinderApp from './filmFinderApp.png'
 
 import resturantVideo from './resturantVideo.mp4'
 import weatherVideo from './weatherVideo.mp4'
 import musicVideo from './musicVideo.mp4'
 import landingVideo from './landingVideo.mp4'
 import gradientVideo from './gradientVideo.mp4'
+import filmFinderVideo from './filmFinderVideo.mp4'
 
 export const heroImg = hero;
 export const rohitImg = rohit;
@@ -40,9 +42,23 @@ export const data = [
       "Scrolling Animations: Utilizes GSAP to create smooth and eye-catching scrolling effects, enhancing user interaction as they browse.",
       "Product display: Intuitive layout allows users to easily explore different product categories",
     ]
+  },{
+    id: 3,
+    title: "filmFinder",
+    image: filmFinderApp, 
+    video: filmFinderVideo,
+    url: "https://rohitjangid05.github.io/Pagination/", 
+    description: "The Pagination System is a web application showcasing a simple and efficient way to navigate large datasets. Built using HTML, CSS, and JavaScript, this project fetches data from an API and displays it in a structured manner with seamless page navigation.",
+    ul: [
+        "Dynamic Data Fetching: Retrieves and displays data from an external API.",
+        "Interactive Pagination: Users can easily navigate between pages to view the data.",
+        "Structured Layout: Displays content in an organized and visually appealing format.",
+        "Responsive Design: Provides a consistent user experience across mobile and desktop devices.",
+        "User-Friendly Navigation: Intuitive pagination controls for easy interaction."
+    ]
   },
   {
-    id: 3,
+    id: 4,
     title: "Weather App",
     image: weatherApp,
     video: weatherVideo,
@@ -56,7 +72,7 @@ export const data = [
       "City Search: Easily search for weather updates by city name."
     ]
   },  {
-    id: 4,
+    id: 5,
     title: "Music Player",
     image: musicApp,
     video: musicVideo,
@@ -70,7 +86,7 @@ export const data = [
       "User-Friendly Interface: An intuitive layout ensures easy access to all controls, making music playback enjoyable."
     ]
   },{
-    id: 5,
+    id: 6,
     title: "Gradient Generator",
     image: gradientApp, 
     video: gradientVideo,
@@ -83,5 +99,6 @@ export const data = [
         "Responsive Design: Works seamlessly on both mobile and desktop devices for on-the-go creativity.",
         "User-Friendly Interface: Simple navigation allows users of all skill levels to create stunning gradients."
     ]
-} 
+},
+
 ];
